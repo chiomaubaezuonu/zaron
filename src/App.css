@@ -104,3 +104,17 @@ hr {
   color: #181818;
   margin-right: 1rem;
 }
+
+.section2-img-div{
+  display: flex;
+}
+.section2-title{
+ margin-left: 1rem; 
+}
+span{
+  margin-right: 0.5rem;
+  margin-left: 1rem;
+}
+.view-all{
+  columns: black;
+}

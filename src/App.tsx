@@ -5,6 +5,10 @@ import "./App.css"
 import search from './images/search.svg'
 import user from './images/user.png'
 import cart from "./images/cart.png"
+import face from "../src/images/face.jpg"
+import eyes from "./images/eyes.jpeg";
+import skin from "./images/skin.jpeg"
+import lips from "./images/lips.jpeg"
 
 function App() {
   return (
@@ -36,6 +40,31 @@ function App() {
           <h1 className='bg-text'>Redefining the essence</h1>
           <h1 className='bg-text'>of beauty</h1>
           <button className='shop-now-btn'>Shop now</button>
+        </div>
+      </div>
+      <div className='section2' style={{ background: "red", position: "absolute" }}>
+        <h2 className='section2-title'> Discover more from Zaron</h2>
+        <div className='section2-img-div'>
+          <span>
+            <img src={face} alt="face" />
+            <p>Face</p>
+          </span>
+          <span>
+            <img src={eyes} alt="eyes" />
+            <p>Eyes</p>
+          </span>
+          <span>
+            <img src={skin} alt="skin" />
+            <p>Skin</p>
+          </span>
+          <span>
+            <img src={lips} alt="lips" />
+            <p>Lips</p>
+          </span>
+        </div>
+        <div>
+          <h1 style={{marginLeft:'1rem'}}>Best Seller</h1>
+          <a className="view-all" href="">View all</a>
         </div>
       </div>
     </div>
