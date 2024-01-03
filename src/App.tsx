@@ -35,7 +35,7 @@ function App() {
           <h3 className='discover'>Discover your best look</h3>
           <h1 className='bg-text'>Redefining the essence</h1>
           <h1 className='bg-text'>of beauty</h1>
-          <button>Shop now</button>
+          <button className='shop-now-btn'>Shop now</button>
         </div>
       </div>
     </div>
