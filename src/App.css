@@ -23,19 +23,19 @@ a {
   font-size: 1.1rem;
 }
 
-.nav-icon{
+.nav-icon {
   width: 1.6rem;
   margin-right: 1rem;
 }
-img{
+
+img {
   width: 7rem;
 }
+
 .wrapper {
   height: 100vh;
   margin-top: 0;
-  background-image: url("./images/zaron-girls.jpg");
-  background-repeat: no-repeat;
-  background-color: aqua;
+  position: relative;
 }
 
 .right-navbar {
@@ -46,4 +46,18 @@ img{
 
 hr {
   margin: 0;
+}
+
+.bg-div {
+  background-image: url("./images/zaron-girls.jpg");
+  background-repeat: no-repeat;
+  position: absolute;
+  /* height: 87.1vh; */
+  height: calc(100vh - 12.9vh);
+  background-size: cover;
+  width: 100%;
+}
+.bg-text{
+  color: white;
+  text-align: center;
 }

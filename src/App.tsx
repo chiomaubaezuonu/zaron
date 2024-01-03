@@ -28,6 +28,14 @@ function App() {
         </div>
       </nav>
       <hr style={{ background: "#EAEAEA" }} />
+      <div className='bg-div'>
+        <div className='bg-text'>
+          <h3 className='discover'>Dicover your best look</h3>
+          <h1>Redefining the essence</h1><br />
+          <h1>of beauty</h1>
+          <button>Shop now</button>
+        </div>
+      </div>
     </div>
   );
 }
