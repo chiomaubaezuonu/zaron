@@ -15,15 +15,15 @@ function App() {
         </div>
         <div className='right-navbar'>
           <div className='navLinks'>
-            <a href=""><p>Makeup</p></a>
-            <a href=""><p>Skincare</p></a>
-            <a href=""><h4>Explore</h4></a>
-            <a href=""><h2>Wishlist</h2></a>
+            <a href="">Makeup</a>
+            <a href="">Skincare</a>
+            <a href="">Explore</a>
+            <a href="">Wishlist</a>
           </div>
           <div>
-            <img src={search} alt="search-icon" />
-            <img src={user} alt="user-icon" />
-            <img src={cart} alt="cart-icon" />
+            <img className='nav-icon' src={search} alt="search-icon" />
+            <img className='nav-icon' src={user} alt="user-icon" />
+            <img className='nav-icon' src={cart} alt="cart-icon" />
           </div>
         </div>
       </nav>

@@ -1,33 +1,49 @@
-body{
+body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-nav{
+
+nav {
   background-color: aquamarine;
-  padding: 1.2rem 4rem;
+  padding: 1.2rem 5rem;
   justify-content: space-between;
 }
-.navLinks{
+
+.navLinks {
   text-decoration: none;
   display: flex;
 }
-h2{
+
+a {
   text-decoration: none;
-  margin-right: 0.8rem;
   color: white;
+  margin-right: 3.4rem;
+  color: white;
+  font-size: 1.1rem;
 }
-a{
-  text-decoration: none;
+
+.nav-icon{
+  width: 1.6rem;
+  margin-right: 1rem;
 }
-.wrapper{
-  background-color: red;
+img{
+  width: 7rem;
+}
+.wrapper {
   height: 100vh;
   margin-top: 0;
+  background-image: url("./images/zaron-girls.jpg");
+  background-repeat: no-repeat;
+  background-color: aqua;
 }
-.right-navbar{
+
+.right-navbar {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
-hr{
+
+hr {
   margin: 0;
 }
