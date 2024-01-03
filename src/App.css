@@ -6,9 +6,15 @@ body {
   box-sizing: border-box;
 }
 
+/* .nav-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
 nav {
   background-color: aquamarine;
-  padding: 1.2rem 5rem;
+  padding: 1.8rem 5rem;
   justify-content: space-between;
 }
 
@@ -31,7 +37,8 @@ a {
 }
 
 img {
-  width: 7rem;
+  width: 8rem;
+  /* margin-left: 0.9rem; */
 }
 
 .wrapper {
@@ -64,9 +71,12 @@ hr {
   color: white;
   text-align: center;
   line-height: 3rem;
+  width: 87.4%;
+  margin: auto;
 }
 
 .bg-text {
+  text-align: center;
   font-size: 7rem;
   font-family: 'Playfair Display', serif;
   font-weight: 700;
