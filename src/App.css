@@ -69,6 +69,7 @@ hr {
 .bg-text {
   font-size: 7rem;
   font-family: 'Playfair Display', serif;
+  font-weight: 700;
 }
 
 .discover {
