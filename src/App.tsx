@@ -62,12 +62,14 @@ function App() {
             <p>Lips</p>
           </span>
         </div>
-        <div className='section2-text'>
+      </div>
+      <div className='section3'>
+        <div className='section3-text'>
           <h1 style={{ marginLeft: '1rem' }}>Best Seller</h1>
           <a className="view-all" href="">View all</a>
         </div>
       </div>
-    </div>
+    </div >
   );
 }
 

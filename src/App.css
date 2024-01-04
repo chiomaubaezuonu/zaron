@@ -115,7 +115,13 @@ span{
   margin-right: 0.5rem;
   margin-left: 1rem;
 }
-.section2-text{
+.section3{
+  position: absolute;
+  top: 10;
+  right: 0;
+  background-color: aquamarine;
+}
+.section3-text{
   display: flex;
   justify-content: space-between;
 }
