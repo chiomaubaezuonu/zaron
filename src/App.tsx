@@ -62,8 +62,8 @@ function App() {
             <p>Lips</p>
           </span>
         </div>
-        <div>
-          <h1 style={{marginLeft:'1rem'}}>Best Seller</h1>
+        <div className='section2-text'>
+          <h1 style={{ marginLeft: '1rem' }}>Best Seller</h1>
           <a className="view-all" href="">View all</a>
         </div>
       </div>

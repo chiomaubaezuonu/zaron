@@ -115,6 +115,10 @@ span{
   margin-right: 0.5rem;
   margin-left: 1rem;
 }
+.section2-text{
+  display: flex;
+  justify-content: space-between;
+}
 .view-all{
   columns: black;
 }
