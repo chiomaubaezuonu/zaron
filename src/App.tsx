@@ -9,6 +9,9 @@ import face from "../src/images/face.jpg"
 import eyes from "./images/eyes.jpeg";
 import skin from "./images/skin.jpeg"
 import lips from "./images/lips.jpeg"
+import bodywash from "./images/bodywash.jpg"
+import bodyLotion from "./images/body-lotion.jpg"
+import faceBodyLotion from "./images/face-body-lotion.jpg"
 
 function App() {
   return (
@@ -67,6 +70,16 @@ function App() {
         <div className='section3-text'>
           <h1 style={{ marginLeft: '1rem' }}>Best Seller</h1>
           <a className="view-all" href="">View all</a>
+        </div>
+        <div>
+          <div style={{ display: "flex" }}>
+            <img src={bodywash} alt="zaron-bodywash" />
+            <ul>
+
+            </ul>
+          </div>
+          <img src={bodyLotion} alt="body lotion" />
+          <img src={faceBodyLotion} alt="face and body lotion" />
         </div>
       </div>
     </div >
