@@ -15,53 +15,56 @@ import faceBodyLotion from "./images/face-body-lotion.jpg"
 
 function App() {
   return (
-    <div className="wrapper">
-      <div>
-        <nav style={{ backgroundColor: "#212121", display: "flex" }}>
-          <div>
-            <img src={zaron} alt="zaronLogo" />
-          </div>
-          <div className='right-navbar'>
-            <div className='navLinks'>
-              <a href="">Makeup</a>
-              <a href="">Skincare</a>
-              <a href="">Explore</a>
-              <a href="">Wishlist</a>
-            </div>
+    <div>
+      <div className="wrapper">
+        <div>
+          <nav style={{ backgroundColor: "#212121", display: "flex" }}>
             <div>
-              <img className='nav-icon' src={search} alt="search-icon" />
-              <img className='nav-icon' src={user} alt="user-icon" />
-              <img className='nav-icon' src={cart} alt="cart-icon" />
+              <img src={zaron} alt="zaronLogo" />
             </div>
-          </div>
-        </nav>
-      </div>
-      <hr style={{ background: "#EAEAEA" }} />
-      <div className='bg-div'>
-        <div className='bg-text-div'>
-          <h3 className='discover'>Discover your best look</h3>
-          <h1 className='bg-text'>Redefining the essence</h1>
-          <h1 className='bg-text'>of beauty</h1>
-          <button className='shop-now-btn'>Shop now</button>
+            <div className='right-navbar'>
+              <div className='navLinks'>
+                <a href="">Makeup</a>
+                <a href="">Skincare</a>
+                <a href="">Explore</a>
+                <a href="">Wishlist</a>
+              </div>
+              <div>
+                <img className='nav-icon' src={search} alt="search-icon" />
+                <img className='nav-icon' src={user} alt="user-icon" />
+                <img className='nav-icon' src={cart} alt="cart-icon" />
+              </div>
+            </div>
+          </nav>
         </div>
-      </div>
-      <div className='section2' style={{ background: "red", position: "absolute" }}>
+        <hr style={{ background: "#EAEAEA" }} />
+        <div className='bg-div'>
+          <div className='bg-text-div'>
+            <h3 className='discover'>Discover your best look</h3>
+            <h1 className='bg-text'>Redefining the essence</h1>
+            <h1 className='bg-text'>of beauty</h1>
+            <button className='shop-now-btn'>Shop now</button>
+          </div>
+        </div>
+
+      </div >
+      <div className='section2'>
         <h2 className='section2-title'> Discover more from Zaron</h2>
         <div className='section2-img-div'>
           <span>
-            <img src={face} alt="face" />
+            <img className='section2-img' src={face} alt="face" />
             <p>Face</p>
           </span>
           <span>
-            <img src={eyes} alt="eyes" />
+            <img className='section2-img' src={eyes} alt="eyes" />
             <p>Eyes</p>
           </span>
           <span>
-            <img src={skin} alt="skin" />
+            <img className='section2-img' src={skin} alt="skin" />
             <p>Skin</p>
           </span>
           <span>
-            <img src={lips} alt="lips" />
+            <img className='section2-img' src={lips} alt="lips" />
             <p>Lips</p>
           </span>
         </div>
@@ -82,7 +85,7 @@ function App() {
           <img src={faceBodyLotion} alt="face and body lotion" />
         </div>
       </div>
-    </div >
+    </div>
   );
 }
 
