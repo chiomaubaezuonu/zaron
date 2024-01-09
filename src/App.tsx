@@ -5,13 +5,16 @@ import "./App.css"
 import search from './images/search.svg'
 import user from './images/user.png'
 import cart from "./images/cart.png"
-import face from "../src/images/face.jpg"
+import face from "./images/face.jpg"
 import eyes from "./images/eyes.jpeg";
 import skin from "./images/skin.jpeg"
 import lips from "./images/lips.jpeg"
 import bodywash from "./images/bodywash.jpg"
 import bodyLotion from "./images/body-lotion.jpg"
 import faceBodyLotion from "./images/face-body-lotion.jpg"
+import box from "./images/box.svg"
+import wishlist from "./images/wishlist.png"
+import searcIcon from "./images/section3-search.svg"
 
 function App() {
   return (
@@ -48,41 +51,82 @@ function App() {
         </div>
 
       </div >
+
       <div className='section2'>
         <h2 className='section2-title'> Discover more from Zaron</h2>
         <div className='section2-img-div'>
           <span>
             <img className='section2-img' src={face} alt="face" />
-            <p>Face</p>
+            <p className='section2-text'>Face</p>
           </span>
           <span>
             <img className='section2-img' src={eyes} alt="eyes" />
-            <p>Eyes</p>
+            <p className='section2-text'>Eyes</p>
           </span>
           <span>
             <img className='section2-img' src={skin} alt="skin" />
-            <p>Skin</p>
+            <p className='section2-text'>Skin</p>
           </span>
           <span>
             <img className='section2-img' src={lips} alt="lips" />
-            <p>Lips</p>
+            <p className='section2-text'>Lips</p>
           </span>
         </div>
       </div>
+
       <div className='section3'>
         <div className='section3-text'>
-          <h1 style={{ marginLeft: '1rem' }}>Best Seller</h1>
+          <h1 className='section3-title'>Best Seller</h1>
           <a className="view-all" href="">View all</a>
         </div>
-        <div>
-          <div style={{ display: "flex" }}>
-            <img src={bodywash} alt="zaron-bodywash" />
-            <ul>
+        <div className='section3-products'>
 
-            </ul>
+          <div className='bodywash-div'>
+            <div style={{ display: "flex" }}>
+              <img className='section3-img' src={bodywash} alt="zaron-bodywash" />
+              <div className='section3-icons'>
+                <img className='section3-search' src={searcIcon} alt="search-icon" />
+                <img className='wishlist' src={wishlist} alt="Wishlist" />
+                <img className='box' src={box} alt="add to cart" />
+              </div>
+            </div>
+            <div>
+              <p>&#8212; Body</p>
+              <h3>Zaron Vitamin C Body Wash </h3>
+              <p>&#8358;9,350.00</p>
+            </div>
           </div>
-          <img src={bodyLotion} alt="body lotion" />
-          <img src={faceBodyLotion} alt="face and body lotion" />
+
+          <div className='body-lotion-div'>
+            <div style={{ display: "flex" }}>
+              <img className='section3-img' src={bodyLotion} alt="body lotion" />
+              <div className='section3-icons'>
+                <img className='section3-search' src={searcIcon} alt="search-icon" />
+                <img className='wishlist' src={wishlist} alt="Wishlist" />
+                <img className='box' src={box} alt="add to cart" />
+              </div>
+            </div>
+            <div>
+              <p>&#8212; Body</p>
+              <h3>Zaron Vitamin C Body Lotion </h3>
+              <p>&#8358;9,980.00</p>
+            </div>
+          </div>
+          <div className='face-body-div'>
+            <div style={{ display: "flex" }}>
+              <img className='section3-img' src={faceBodyLotion} alt="face and body lotion" />
+              <div className='section3-icons'>
+                <img className='section3-search' src={searcIcon} alt="search-icon" />
+                <img className='wishlist' src={wishlist} alt="Wishlist" />
+                <img className='box' src={box} alt="add to cart" />
+              </div>
+            </div>
+            <div>
+              <p>&#8212; Body</p>
+              <h3>Zaron Vitamin C face and Body Lotion - Men </h3>
+              <p>&#8358;9,750.00</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
