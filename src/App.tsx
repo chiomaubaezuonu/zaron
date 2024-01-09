@@ -15,6 +15,7 @@ import faceBodyLotion from "./images/face-body-lotion.jpg"
 import box from "./images/box.svg"
 import wishlist from "./images/wishlist.png"
 import searcIcon from "./images/section3-search.svg"
+import zaronMen from "./images/Zaron-men.jpeg"
 
 function App() {
   return (
@@ -139,6 +140,19 @@ function App() {
           </div>
 
         </div>
+      </div>
+
+      <div className='section4'>
+        <div className='section4-left'>
+          <h1>SKIN BY ZARON MEN</h1>
+          <h1>No stress Self Care</h1>
+          <p> Carefully selected products for the ideal man to cleanse, exfoliate and moisturize.</p>
+          <button className='section4-btn'>Shop Now</button>
+        </div>
+        <div>
+          <img src={zaronMen} alt="Zaron men" />
+        </div>
+
       </div>
     </div>
   );
