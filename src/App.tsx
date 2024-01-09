@@ -91,9 +91,12 @@ function App() {
               </div>
             </div>
             <div>
-              <p>&#8212; Body</p>
-              <h3>Zaron Vitamin C Body Wash </h3>
-              <p>&#8358;9,350.00</p>
+              <div style={{ display: "flex", marginLeft: '1.2rem' }}>
+                <p style={{ color: "#A2A2A2", fontWeight: "bold" }}>&#8212;</p>
+                <p style={{ color: '#444444' }}>Body</p>
+              </div>
+              <h3 className='section3-productDetails'>Zaron Vitamin C Body Wash </h3>
+              <p className='section3-productPrice'>&#8358;9,350.00</p>
             </div>
           </div>
 
@@ -107,11 +110,15 @@ function App() {
               </div>
             </div>
             <div>
-              <p>&#8212; Body</p>
-              <h3>Zaron Vitamin C Body Lotion </h3>
-              <p>&#8358;9,980.00</p>
+              <div style={{ display: "flex", marginLeft: '1.2rem' }}>
+                <p style={{ color: "#A2A2A2", fontWeight: "bold" }}>&#8212;</p>
+                <p style={{ color: '#444444' }}>Body</p>
+              </div>
+              <h3 className='section3-productDetails'>Zaron Vitamin C Body Lotion </h3>
+              <p className='section3-productPrice'>&#8358;9,980.00</p>
             </div>
           </div>
+
           <div className='face-body-div'>
             <div style={{ display: "flex" }}>
               <img className='section3-img' src={faceBodyLotion} alt="face and body lotion" />
@@ -122,11 +129,15 @@ function App() {
               </div>
             </div>
             <div>
-              <p>&#8212; Body</p>
-              <h3>Zaron Vitamin C face and Body Lotion - Men </h3>
-              <p>&#8358;9,750.00</p>
+              <div style={{ display: "flex", marginLeft: '1.2rem' }}>
+                <p style={{ color: "#A2A2A2", fontWeight: "bold" }}>&#8212;</p>
+                <p style={{ color: '#444444' }}>Body</p>
+              </div>
+              <h3 className='section3-productDetails'>Zaron Vitamin C face and Body Lotion - Men </h3>
+              <p className='section3-productPrice'>&#8358;9,750.00</p>
             </div>
           </div>
+
         </div>
       </div>
     </div>

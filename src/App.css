@@ -183,7 +183,8 @@ span {
 .body-lotion-div,
 .face-body-div {
   border: 0.1rem solid rgba(197, 195, 195, 0.3);
-  width: 31%;
+  width: 32%;
+  background-color: red;
 }
 
 .section3-img {
@@ -195,4 +196,23 @@ span {
 .section3-search {
   width: 1.5rem;
   padding: 0.7rem;
+}
+
+.section3-productDetails {
+  /* color:#4B4B4D; */
+  color: #18181B;
+  font-family: "Manrope", Sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 0.6rem;
+  margin-top: 0;
+  line-height: 1.2;
+  margin-left: 1.2rem;
+}
+
+.section3-productPrice {
+  color: #444444;
+  font-weight: 700;
+  font-size: 1.23rem;
+  margin-left: 1.2rem;
 }
