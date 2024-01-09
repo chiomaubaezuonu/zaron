@@ -177,6 +177,7 @@ span {
   width: 20%;
   height: 50%;
   margin-top: 4rem;
+  margin-right: 1rem;
 }
 
 .bodywash-div,
@@ -184,11 +185,12 @@ span {
 .face-body-div {
   border: 0.1rem solid rgba(197, 195, 195, 0.3);
   width: 32%;
-  background-color: red;
+  height: 32rem;
 }
 
 .section3-img {
   width: 80%;
+  margin-right: 0.7rem;
 }
 
 .box,
