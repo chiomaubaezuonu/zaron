@@ -218,6 +218,64 @@ span {
   font-size: 1.23rem;
   margin-left: 1.2rem;
 }
-.section4-left{
-  background-color: #F2F0F3;
+
+.section4 {
+  display: flex;
+  width: 100%;
+  background-color: red;
+  /* margin-top: 3rem;
+  margin-bottom: 3rem;
+  height: calc(100vh - 11rem); */
+}
+
+.section4-left {
+  background-color: #F7F5F8;
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.zaron-men-div {
+  background-color: pink;
+  width: 100%;
+}
+
+.zaron-men {
+  width: 100%;
+  height: auto;
+  /* height: 100vh;
+  object-fit: cover; */
+}
+
+.section4-title {
+  columns: #2B2B2B;
+  font-size: 1.7rem;
+  line-height: 1.1rem;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+}
+
+.section4-text {
+  color: #384B52;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+
+.section4-btn {
+  background-color: #181818;
+  color: #FFFFFF;
+  border: none;
+  padding: 0.6rem 2.1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+}
+.section4-btn:hover{
+  background-color: #FFFFFF;
+  color: #2b2b2b;
+  border: 0.1rem solid #2B2B2B;
 }

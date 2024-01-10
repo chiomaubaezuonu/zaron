@@ -144,13 +144,15 @@ function App() {
 
       <div className='section4'>
         <div className='section4-left'>
-          <h1>SKIN BY ZARON MEN</h1>
-          <h1>No stress Self Care</h1>
-          <p> Carefully selected products for the ideal man to cleanse, exfoliate and moisturize.</p>
+         <div style={{width: '20rem'}}>
+         <h2 style={{fontWeight: '700'}} className='section4-title'>SKIN BY ZARON MEN</h2>
+          <h2 className='section4-title'>No stress, Self Care</h2>
+          <p className='section4-text'> Carefully selected products for the ideal man to cleanse, exfoliate and moisturize.</p>
           <button className='section4-btn'>Shop Now</button>
+         </div>
         </div>
-        <div>
-          <img src={zaronMen} alt="Zaron men" />
+        <div className='zaron-men-div'>
+          <img className='zaron-men' src={zaronMen} alt="Zaron men" />
         </div>
 
       </div>
