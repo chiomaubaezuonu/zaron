@@ -16,6 +16,8 @@ import box from "./images/box.svg"
 import wishlist from "./images/wishlist.png"
 import searcIcon from "./images/section3-search.svg"
 import zaronMen from "./images/Zaron-men.jpeg"
+import section5Img from "./images/section5-img.png"
+import { Button } from 'antd';
 
 function App() {
   return (
@@ -144,17 +146,36 @@ function App() {
 
       <div className='section4'>
         <div className='section4-left'>
-         <div style={{width: '20rem'}}>
-         <h2 style={{fontWeight: '700'}} className='section4-title'>SKIN BY ZARON MEN</h2>
-          <h2 className='section4-title'>No stress, Self Care</h2>
-          <p className='section4-text'> Carefully selected products for the ideal man to cleanse, exfoliate and moisturize.</p>
-          <button className='section4-btn'>Shop Now</button>
-         </div>
+          <div style={{ width: '20rem' }}>
+            <h2 style={{ fontWeight: '700' }} className='section4-title'>SKIN BY ZARON MEN</h2>
+            <h2 className='section4-title'>No stress, Self Care</h2>
+            <p className='section4-text'> Carefully selected products for the ideal man to cleanse, exfoliate and moisturize.</p>
+            <button className='section4-btn'>Shop Now</button>
+          </div>
         </div>
         <div className='zaron-men-div'>
           <img className='zaron-men' src={zaronMen} alt="Zaron men" />
         </div>
 
+      </div>
+
+      <div className='section5'>
+        <div className='bg-img-wrapper'>
+          <div className='left-div'>
+            <h2>ZARON MAKEUP</h2>
+            <h2>Experience the variety of products exclusive to zaron</h2>
+            <Button type='primary'>Explore</Button>
+          </div>
+          <div className='right-div'>
+            <h2>ZARON SKIN</h2>
+            <h2>Experience the variety of products exclusive to zaron</h2>
+            <Button type='primary'>Explore</Button>
+          </div>
+        </div>
+        <div className='section5-texts'>
+          <h2>Join Our Zaron Community</h2>
+          <p>Get the latest beauty news, product samples and coupons in your inbox</p>
+        </div>
       </div>
     </div>
   );

@@ -223,6 +223,8 @@ span {
   display: flex;
   width: 100%;
   background-color: red;
+  margin: 2rem 0;
+  height: 100vh;
   /* margin-top: 3rem;
   margin-bottom: 3rem;
   height: calc(100vh - 11rem); */
@@ -244,9 +246,8 @@ span {
 
 .zaron-men {
   width: 100%;
-  height: auto;
-  /* height: 100vh;
-  object-fit: cover; */
+  height: 100vh;
+  object-fit: cover;
 }
 
 .section4-title {
@@ -274,8 +275,32 @@ span {
   font-family: 'Open Sans', sans-serif;
   font-size: 0.9rem;
 }
-.section4-btn:hover{
+
+.section4-btn:hover {
   background-color: #FFFFFF;
   color: #2b2b2b;
   border: 0.1rem solid #2B2B2B;
+}
+
+.section5 {
+  height: 100vh;
+}
+
+.bg-img-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 6.7rem;
+  height: 70vh;
+}
+
+.left-div {
+  background-image: url("../src/images/left-bg-img.svg");
+  background-repeat: no-repeat;
+  width: 50%;
+}
+
+.right-div {
+  background-image: url("../src/images/right-bg-img.svg");
+  background-repeat: no-repeat;
+  width: 50%;
 }
