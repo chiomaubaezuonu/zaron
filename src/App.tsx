@@ -181,10 +181,12 @@ function App() {
             <span style={{ color: "red" }}>*</span>
             <Input />
             <Button type='primary'>Submit</Button>
-            <Layout>
-              <Footer style={{background: 'red'}}>Footer</Footer>
-            </Layout>
           </div>
+        </div>
+        <div className='footer-wrapper'>
+          <Layout>
+            <Footer className='footer'>Copyright © 2024 Zaron Cosmetics and Beauty | Powered by Zaron Cosmetic</Footer>
+          </Layout>
         </div>
       </div>
     </div>
