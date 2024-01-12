@@ -17,7 +17,8 @@ import wishlist from "./images/wishlist.png"
 import searcIcon from "./images/section3-search.svg"
 import zaronMen from "./images/Zaron-men.jpeg"
 import section5Img from "./images/section5-img.png"
-import { Button, Input } from 'antd';
+import { Button, Input, Layout } from 'antd';
+import { Footer } from 'antd/es/layout/layout';
 
 function App() {
   return (
@@ -180,6 +181,9 @@ function App() {
             <span style={{ color: "red" }}>*</span>
             <Input />
             <Button type='primary'>Submit</Button>
+            <Layout>
+              <Footer style={{background: 'red'}}>Footer</Footer>
+            </Layout>
           </div>
         </div>
       </div>
