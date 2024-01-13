@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Manrope:wght@300&display=swap');
 
 
 
@@ -304,20 +305,87 @@ span {
   background-repeat: no-repeat;
   width: 50%;
 }
-.section5-texts{
+
+.section5-texts {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0.7rem 0 6rem 0;
 }
-.footer-wrapper{
+
+.section5-texts h2 {
+  color: #2b2b2b;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 0;
+}
+
+.section5-texts p {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: #8F8F8F;
+  margin-top: 0.2rem;
+  margin-bottom: 4rem;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.section5 label {
+  margin-bottom: 2rem;
+  color: black;
+  margin-right: 0.1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.email-div {
+  display: flex;
+}
+
+.input {
+  margin-top: 1rem;
+  margin-bottom: 2.6rem;
+  width: 19rem;
+  padding: 0.1rem;
+}
+
+.submit-btn {
+  background-color: black;
+  font-family: 'Manrope', sans-serif;
+  width: 19rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  border: none;
+}
+
+.submit-btn:hover {
+  background-color: white;
+  color: black;
+  border: 0.05rem solid black;
+}
+
+.footer-wrapper {
   width: 100%;
 }
-.footer{
+
+.footer {
   background-color: black;
   color: rgba(255, 255, 255, 1);
   font-size: 1rem;
   font-family: 'Open Sans', sans-serif;
-  background-color: rgba(33,33,33,1);
+  background-color: rgba(33, 33, 33, 1);
   padding-left: 7rem;
+  height: 2.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

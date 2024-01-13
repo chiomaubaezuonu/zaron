@@ -176,11 +176,13 @@ function App() {
         <div className='section5-texts'>
           <h2>Join Our Zaron Community</h2>
           <p>Get the latest beauty news, product samples and coupons in your inbox</p>
-          <div>
-            <label htmlFor="Email">Email</label>
-            <span style={{ color: "red" }}>*</span>
-            <Input />
-            <Button type='primary'>Submit</Button>
+          <div className='input-div'>
+            <div className='email-div'>
+              <label htmlFor="Email">Email</label>
+              <span style={{ color: "red", marginLeft: '0.07rem' }}>*</span>
+            </div>
+            <Input className='input' type='email' required />
+            <Button type='text' disabled className='submit-btn'>Submit</Button>
           </div>
         </div>
         <div className='footer-wrapper'>
