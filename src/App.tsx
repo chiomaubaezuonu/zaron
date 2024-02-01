@@ -1,5 +1,5 @@
-import './App.css';
-import React from "react"
+import './App.scss';
+import React, { useState } from "react"
 import zaron from "./images/zaron.png"
 import "./App.css"
 import search from './images/search.svg'
@@ -19,8 +19,11 @@ import zaronMen from "./images/Zaron-men.jpeg"
 import section5Img from "./images/section5-img.png"
 import { Button, Input, Layout } from 'antd';
 import { Footer } from 'antd/es/layout/layout';
+import arrowdown from "./images/arrow-chevron-down.svg"
 
 function App() {
+
+  // const [downArrow, setDownArrow] = useState(false)
   return (
     <div>
       <div className="wrapper">
@@ -31,7 +34,9 @@ function App() {
             </div>
             <div className='right-navbar'>
               <div className='navLinks'>
-                <a href="">Makeup</a>
+                <a href="">Makeup
+                <img src={arrowdown} alt="down-arrow" className='arrowdown' />
+                </a>
                 <a href="">Skincare</a>
                 <a href="">Explore</a>
                 <a href="">Wishlist</a>

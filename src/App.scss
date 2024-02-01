@@ -37,6 +37,14 @@ a {
   color: white;
   font-size: 1.1rem;
 }
+.arrowdown{
+  width: 0.7rem;
+  margin-left: 0.3rem;
+  opacity: 0;
+}
+a:hover{
+  color: red;
+}
 
 .nav-icon {
   width: 1.6rem;
@@ -71,6 +79,7 @@ hr {
   height: 85.2vh;
   /* height: calc(100vh - 12.9vh); */
   background-size: cover;
+  background-position: top center;
   width: 100%;
 }
 
