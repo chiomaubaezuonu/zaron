@@ -37,13 +37,31 @@ a {
   color: white;
   font-size: 1.1rem;
 }
-.arrowdown{
+
+.arrowdown {
   width: 0.7rem;
   margin-left: 0.3rem;
   opacity: 0;
 }
-a:hover{
+
+a:hover {
   color: red;
+}
+
+.nav-dropdown-div {
+  position: absolute;
+  background-color: black;
+  color: white;
+  border-radius: 0.3rem;
+  width: 9rem;
+  padding: 0.1rem 1rem 1.5rem 0;
+  z-index: 4;
+}
+
+.nav-dropdown {
+  list-style-type: none;
+  padding-left: 1rem;
+
 }
 
 .nav-icon {

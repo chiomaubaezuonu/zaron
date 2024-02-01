@@ -1,7 +1,7 @@
 import './App.scss';
 import React, { useState } from "react"
 import zaron from "./images/zaron.png"
-import "./App.css"
+import "./App.scss"
 import search from './images/search.svg'
 import user from './images/user.png'
 import cart from "./images/cart.png"
@@ -35,7 +35,7 @@ function App() {
             <div className='right-navbar'>
               <div className='navLinks'>
                 <a href="">Makeup
-                <img src={arrowdown} alt="down-arrow" className='arrowdown' />
+                  <img src={arrowdown} alt="down-arrow" className='arrowdown' />
                 </a>
                 <a href="">Skincare</a>
                 <a href="">Explore</a>
@@ -48,6 +48,27 @@ function App() {
               </div>
             </div>
           </nav>
+        </div>
+        <div className='nav-dropdown-div'>
+          <ul className='nav-dropdown'>
+            <li>Face</li>
+            <li>Eyes</li>
+            <li>Lips</li>
+            <li>Accessories</li>
+          </ul>
+        </div>
+        <div className='nav-dropdown-div'>
+          <ul className='nav-dropdown'>
+            <li>Men</li>
+            <li>Women</li>
+          </ul>
+        </div>
+        <div className='nav-dropdown-div'>
+          <ul className='nav-dropdown'>
+            <li>Store Locator</li>
+            <li>About Us</li>
+            <li>Zaron Team</li>
+          </ul>
         </div>
         <hr style={{ background: "#EAEAEA" }} />
         <div className='bg-div'>
