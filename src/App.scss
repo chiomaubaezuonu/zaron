@@ -44,24 +44,31 @@ a {
   opacity: 0;
 }
 
-a:hover {
-  color: red;
-}
-
-.nav-dropdown-div {
+.nav-dropdown-div1 {
   position: absolute;
   background-color: black;
   color: white;
   border-radius: 0.3rem;
   width: 9rem;
   padding: 0.1rem 1rem 1.5rem 0;
-  z-index: 4;
+  left: 39rem;
+  z-index: -1;
+}
+
+.firstNavLink:hover {
+  .arrowdown {
+    opacity: 1;
+  }
+
+  .nav-dropdown-div1 {
+    z-index: 2;
+  }
+
 }
 
 .nav-dropdown {
   list-style-type: none;
   padding-left: 1rem;
-
 }
 
 .nav-icon {
@@ -146,6 +153,11 @@ hr {
 
 .section2-img {
   width: 16.5rem;
+}
+
+.section2-img:hover {
+  transform: scale(1.1);
+  transition: 0.4s ease-in-out;
 }
 
 .section2-title {

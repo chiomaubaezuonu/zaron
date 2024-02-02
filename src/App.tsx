@@ -34,7 +34,7 @@ function App() {
             </div>
             <div className='right-navbar'>
               <div className='navLinks'>
-                <a href="">Makeup
+                <a href="" className='firstNavLink'>Makeup
                   <img src={arrowdown} alt="down-arrow" className='arrowdown' />
                 </a>
                 <a href="">Skincare</a>
@@ -49,7 +49,7 @@ function App() {
             </div>
           </nav>
         </div>
-        <div className='nav-dropdown-div'>
+        <div className='nav-dropdown-div1'>
           <ul className='nav-dropdown'>
             <li>Face</li>
             <li>Eyes</li>
@@ -57,7 +57,7 @@ function App() {
             <li>Accessories</li>
           </ul>
         </div>
-        <div className='nav-dropdown-div'>
+        {/* <div className='nav-dropdown-div'>
           <ul className='nav-dropdown'>
             <li>Men</li>
             <li>Women</li>
@@ -69,7 +69,7 @@ function App() {
             <li>About Us</li>
             <li>Zaron Team</li>
           </ul>
-        </div>
+        </div> */}
         <hr style={{ background: "#EAEAEA" }} />
         <div className='bg-div'>
           <div className='bg-text-div'>
