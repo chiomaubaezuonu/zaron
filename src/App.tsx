@@ -36,9 +36,34 @@ function App() {
               <div className='navLinks'>
                 <a href="" className='firstNavLink'>Makeup
                   <img src={arrowdown} alt="down-arrow" className='arrowdown' />
+                  <div className='nav-dropdown-div'>
+                    <ul className='nav-dropdown'>
+                      <li>Face</li>
+                      <li>Eyes</li>
+                      <li>Lips</li>
+                      <li>Accessories</li>
+                    </ul>
+                  </div>
                 </a>
-                <a href="">Skincare</a>
-                <a href="">Explore</a>
+                <a href="" className='secondNavLink'>Skincare
+                  <img src={arrowdown} alt="down-arrow" className='arrowdown' />
+                  <div className='nav-dropdown-div'>
+                    <ul className='nav-dropdown'>
+                      <li>Men</li>
+                      <li>Women</li>
+                    </ul>
+                  </div>
+                </a>
+                <a href="" className='thirdNavLink'>Explore
+                  <img src={arrowdown} alt="down-arrow" className='arrowdown' />
+                  <div className='nav-dropdown-div'>
+                    <ul className='nav-dropdown'>
+                      <li>Store Locator</li>
+                      <li>About Us</li>
+                      <li>Zaron Team</li>
+                    </ul>
+                  </div>
+                </a>
                 <a href="">Wishlist</a>
               </div>
               <div>
@@ -49,27 +74,6 @@ function App() {
             </div>
           </nav>
         </div>
-        <div className='nav-dropdown-div1'>
-          <ul className='nav-dropdown'>
-            <li>Face</li>
-            <li>Eyes</li>
-            <li>Lips</li>
-            <li>Accessories</li>
-          </ul>
-        </div>
-        {/* <div className='nav-dropdown-div'>
-          <ul className='nav-dropdown'>
-            <li>Men</li>
-            <li>Women</li>
-          </ul>
-        </div>
-        <div className='nav-dropdown-div'>
-          <ul className='nav-dropdown'>
-            <li>Store Locator</li>
-            <li>About Us</li>
-            <li>Zaron Team</li>
-          </ul>
-        </div> */}
         <hr style={{ background: "#EAEAEA" }} />
         <div className='bg-div'>
           <div className='bg-text-div'>
@@ -189,14 +193,14 @@ function App() {
       <div className='section5'>
         <div className='bg-img-wrapper'>
           <div className='left-div'>
-            <h2>ZARON MAKEUP</h2>
-            <h2>Experience the variety of products exclusive to zaron</h2>
-            <Button href='https://zaroncosmetics.com/product-category/zaron-makeup/' type='primary'>Explore</Button>
+            <h2 style={{ marginTop: "3.5rem" }}>ZARON MAKEUP</h2>
+            <h2 className='section5-subTitle'>Experience the variety of products <br /> exclusive to zaron</h2>
+            <Button href='https://zaroncosmetics.com/product-category/zaron-makeup/' type='primary' className='explore-btn'>Explore</Button>
           </div>
           <div className='right-div'>
             <h2>ZARON SKIN</h2>
-            <h2>Experience the variety of products exclusive to zaron</h2>
-            <Button href='https://zaroncosmetics.com/product-category/zaron-skincare/' type='primary'>Explore</Button>
+            <h2 className='section5-subTitle'>Experience the variety of products exclusive to zaron</h2>
+            <Button href='https://zaroncosmetics.com/product-category/zaron-skincare/' type='primary' className='explore-btn'>Explore</Button>
           </div>
         </div>
         <div className='section5-texts'>
