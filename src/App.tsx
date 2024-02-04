@@ -38,7 +38,15 @@ function App() {
                   <img src={arrowdown} alt="down-arrow" className='arrowdown' />
                   <div className='nav-dropdown-div'>
                     <ul className='nav-dropdown'>
-                      <li>Face</li>
+                      <li className='face-menu'>Face
+                        <img src={arrowdown} alt="down-arrow" className='menu-item-arrow' />
+                        <div className='menuItem-dropdown-div'>
+                          <ul className='nav-dropdown'>
+                            <li>Foundation</li>
+                            <li>Powder</li>
+                          </ul>
+                        </div>
+                      </li>
                       <li>Eyes</li>
                       <li>Lips</li>
                       <li>Accessories</li>
