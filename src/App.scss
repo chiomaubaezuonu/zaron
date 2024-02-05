@@ -83,19 +83,22 @@ a {
 
 }
 
-.face-menu {
+.face-menu,
+.lips-menu,
+.lipGloss-menu {
   position: relative;
 }
 
 .menu-item-arrow {
   cursor: pointer;
-  width: 0.7rem;
+  width: 0.4rem;
   display: inline-flex;
+  font-weight: 300;
   margin-left: 5.4rem;
   opacity: 0;
 }
 
-.menuItem-dropdown-div {
+.menuItem-dropdown-div, .lipGloss-menuItem-dropdown {
   position: absolute;
   background-color: black;
   color: white;
@@ -114,7 +117,9 @@ li {
   margin: 1.1rem 0;
 }
 
-.face-menu:hover {
+.face-menu:hover,
+.lips-menu:hover
+ {
   .menu-item-arrow {
     opacity: 1;
   }
@@ -122,8 +127,13 @@ li {
   .menuItem-dropdown-div {
     opacity: 1;
   }
+  
 }
-
+.lipGloss-menu:hover{
+  .lipGloss-menuItem-dropdown{
+    opacity: 1;
+  }
+}
 .nav-dropdown {
   list-style-type: none;
   padding-left: 1rem;
@@ -152,21 +162,6 @@ img {
 }
 
 .shopping-cart-count {
-  // position: absolute;
-  // background-color: red;
-  // color: white;
-  // min-width: 1.1rem;
-  // height: 1.1rem;
-  // display: inline-flex;
-  // align-items: center;
-  // justify-content: center;
-  // border-radius: 0.5rem;
-  // padding: 0 0.3rem;
-  // white-space: nowrap;
-  // font-size: 0.75rem;
-  // top: -0.3rem;
-  // right: -0.9rem;
-
   position: absolute;
   background-color: red;
   color: white;
