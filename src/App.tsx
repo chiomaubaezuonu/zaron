@@ -27,7 +27,7 @@ function App() {
   return (
     <div>
       <div className="wrapper">
-        <div>
+        <div className='nav-container'>
           <nav style={{ backgroundColor: "#212121", display: "flex" }}>
             <div>
               <img src={zaron} alt="zaronLogo" />

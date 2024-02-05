@@ -19,6 +19,10 @@ body {
   align-items: center;
   justify-content: center;
 } */
+.nav-container{
+  position: relative;
+  z-index: 5;
+}
 nav {
   background-color: aquamarine;
   padding: 1.4rem 5rem;
@@ -150,11 +154,11 @@ hr {
   background-image: url("./images/zaron-girls.png");
   background-repeat: no-repeat;
   position: absolute;
-  height: 85.2vh;
-  /* height: calc(100vh - 12.9vh); */
+  height: 98vh;
   background-size: cover;
   background-position: top center;
   width: 100%;
+  top:1.6rem
 }
 
 .bg-text-div {
@@ -163,6 +167,7 @@ hr {
   line-height: 3rem;
   width: 87.4%;
   margin: auto;
+  margin-top: 7rem;
 }
 
 .bg-text {
