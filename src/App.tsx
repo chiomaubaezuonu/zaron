@@ -55,6 +55,7 @@ function App() {
                             <li>Lipstick</li>
                             <li>Lip Balm</li>
                             <li className='lipGloss-menu'>Lip Gloss
+                              <img src={rightArrow} alt="down-arrow" className='menu-item-arrow' />
                               <div className='lipGloss-menuItem-dropdown'>
                                 <ul className='nav-dropdown'>
                                   <li>Luxurious Lip Gloss</li>
@@ -112,10 +113,8 @@ function App() {
               <div>
                 <img className='nav-icon' src={search} alt="search-icon" />
                 <img className='nav-icon' src={user} alt="user-icon" />
-                {/* <span className='shopping-cart' style={{display:"flex"}}> */}
                 <img style={{ position: 'relative' }} className='nav-icon' src={cart} alt="cart-icon" />
                 <span className='shopping-cart-count'>0</span>
-                {/* </span> */}
               </div>
             </div>
           </nav>

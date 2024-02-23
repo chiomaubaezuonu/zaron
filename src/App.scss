@@ -55,7 +55,7 @@ a {
   color: white;
   border-radius: 0.3rem;
   width: 9rem;
-  padding: 0.1rem 1rem 1.5rem 0;
+  padding: 0rem 1rem 1.5rem 0;
   opacity: 0;
   z-index: 3;
   top: 3.44rem;
@@ -94,7 +94,7 @@ a {
   width: 0.4rem;
   display: inline-flex;
   font-weight: 300;
-  margin-left: 5.4rem;
+  margin-left: 5.8rem;
   opacity: 0;
 }
 
@@ -103,18 +103,22 @@ a {
   background-color: black;
   color: white;
   border-radius: 0.3rem;
-  width: 9rem;
   padding: 0.1rem 1rem 1.5rem 0;
   opacity: 0;
   z-index: 3;
-  top: -1rem;
-  left: 9rem;
-  width: 10rem;
+  top: 0.1rem;
+  left: 10rem;
+  width: 12rem;
   padding: 0;
 }
 
 li {
-  margin: 1.1rem 0;
+  padding: 0.6rem 1rem;
+  margin-top: 0;
+  font-size: 0.9rem;
+}
+li:hover{
+  background-color: #404040;
 }
 
 .face-menu:hover,
@@ -136,14 +140,20 @@ li {
 }
 .nav-dropdown {
   list-style-type: none;
-  padding-left: 1rem;
+   padding-left: 0rem;
+   margin-top: 0;
+   margin-bottom: 0;
 }
 
 .nav-icon {
   width: 1.6rem;
   margin-right: 1rem;
+  cursor: pointer;
 }
-
+.nav-icon:hover{
+  color:red;
+  background-color: red;
+}
 img {
   width: 8rem;
   /* margin-left: 0.9rem; */
