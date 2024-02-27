@@ -2,7 +2,8 @@ import React from 'react'
 
 const WishListPage = () => {
   return (
-    <div className='wishlist-title'>
+   <div style={{background:'yellow', height:'100vh', marginTop:'0'}}>
+     <div className='wishlist-title'>
       <h1>My Wishlist</h1>
       <div>
         <p>Product name</p>
@@ -12,6 +13,7 @@ const WishListPage = () => {
       <p>No products added to the wishlist</p>
    
     </div>
+   </div>
   )
 }
 

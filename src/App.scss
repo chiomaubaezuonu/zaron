@@ -132,6 +132,29 @@ li:hover{
   }
   
 }
+.lipstick-div{
+  display: flex;
+  align-items: center; 
+  padding: 2rem 3rem;
+  justify-content: space-between;
+}
+.lipstick-select{
+  width: 22%;
+}
+.lipStick-card-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+}
+.lipstickCard{
+  margin: 1rem 1.3rem;
+  width: 20vw;
+  height: 20vw;
+}
+.lipstickImages{
+  width: 90%;
+}
 .lipGloss-menu:hover{
   .lipGloss-menuItem-dropdown{
     opacity: 1;
@@ -363,7 +386,7 @@ span {
   width: 100%;
   background-color: red;
   margin: 2rem 0;
-  height: 100vh;
+  // height: 100vh;
   /* margin-top: 3rem;
   margin-bottom: 3rem;
   height: calc(100vh - 11rem); */
@@ -379,13 +402,13 @@ span {
 }
 
 .zaron-men-div {
-  background-color: pink;
+  // background-color: pink;
   width: 100%;
 }
 
 .zaron-men {
   width: 100%;
-  height: 100vh;
+  // height: 100vh;
   object-fit: cover;
 }
 
@@ -421,9 +444,9 @@ span {
   border: 0.1rem solid #2B2B2B;
 }
 
-.section5 {
-  height: 100vh;
-}
+// .section5 {
+//   height: 100vh;
+// }
 
 .bg-img-wrapper {
   display: flex;

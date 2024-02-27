@@ -7,6 +7,8 @@ import { Layout } from 'antd'
 import { Footer } from 'antd/es/layout/layout'
 import Home from './Home'
 import "./App.scss"
+import Powder from './Pages/Powder'
+import Lipstick from './Pages/lipstick'
 
 const App2 = () => {
   return (
@@ -15,6 +17,9 @@ const App2 = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/wishListPage' element={<WishListPage />} />
+        <Route path='/powder' element={<Powder />} />
+        <Route path='/lipstick' element={<Lipstick />} />
+        
       </Routes>
       <div className='footer-wrapper'>
         <Layout>

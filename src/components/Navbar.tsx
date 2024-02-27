@@ -44,7 +44,7 @@ const Navbar = () => {
                     <div className='menuItem-dropdown-div'>
                       <ul className='nav-dropdown'>
                         <li>Foundation</li>
-                        <li>Powder</li>
+                        <NavLink to="/powder"><li>Powder</li></NavLink>
                       </ul>
                     </div>
                   </li>
@@ -52,7 +52,7 @@ const Navbar = () => {
                   <li className='lips-menu'>Lips
                     <div className='menuItem-dropdown-div'>
                       <ul className='nav-dropdown'>
-                        <li>Lipstick</li>
+                    <NavLink to="/lipstick">Lipstick</NavLink>
                         <li>Lip Balm</li>
                         <li className='lipGloss-menu'>Lip Gloss
                           <img src={rightArrow} alt="down-arrow" className='menu-item-arrow' />
