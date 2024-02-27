@@ -54,12 +54,11 @@ a {
   background-color: black;
   color: white;
   border-radius: 0.3rem;
-  width: 9rem;
   padding: 0rem 1rem 1.5rem 0;
   opacity: 0;
   z-index: 3;
   top: 3.44rem;
-  left: 0;
+  left: -1rem;
   width: 10rem;
   padding: 0;
 }
@@ -161,7 +160,7 @@ img {
 
 .wrapper {
   height: 100vh;
-  margin-top: 0;
+  margin-top: -5.6rem;
   position: relative;
 }
 
@@ -185,7 +184,13 @@ img {
   font-size: 0.89rem;
   font-weight: 700;
 }
-
+.wishListLink:active{
+background-color: green;
+}
+.wishlist-title{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
 hr {
   margin: 0;
 }
@@ -531,6 +536,7 @@ span {
 .footer-wrapper {
   width: 100%;
 }
+
 
 .footer {
   background-color: black;
