@@ -97,7 +97,8 @@ a {
   opacity: 0;
 }
 
-.menuItem-dropdown-div, .lipGloss-menuItem-dropdown {
+.menuItem-dropdown-div,
+.lipGloss-menuItem-dropdown {
   position: absolute;
   background-color: black;
   color: white;
@@ -116,13 +117,13 @@ li {
   margin-top: 0;
   font-size: 0.9rem;
 }
-li:hover{
+
+li:hover {
   background-color: #404040;
 }
 
 .face-menu:hover,
-.lips-menu:hover
- {
+.lips-menu:hover {
   .menu-item-arrow {
     opacity: 1;
   }
@@ -130,41 +131,86 @@ li:hover{
   .menuItem-dropdown-div {
     opacity: 1;
   }
-  
+
 }
-.lipstick-div{
+
+.lipstick-div {
   display: flex;
-  align-items: center; 
-  padding: 2rem 3rem;
+  align-items: center;
+  padding: 1.3rem 5.7rem;
   justify-content: space-between;
+  color: #8F8F8F;
+  // background-color: green;
 }
-.lipstick-select{
+
+.lipstick-select {
   width: 22%;
 }
-.lipStick-card-wrapper{
+
+.lipStick-card-wrapper {
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: center;
+  // width: 100%;
+  // margin: auto;
+  //  background-color: plum;
+  // padding: 0.2rem 0;
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: calc(100% - 8rem);
+  padding: 1rem 4rem;
   margin: auto;
+  // background-color: red;
+  // justify-content: center;    
 }
-.lipstickCard{
-  margin: 1rem 1.3rem;
+
+.lipstickCard {
+  // width: 20%;
+  // display: flex;
+  // padding: 0 0 2rem 0;
+  // flex-direction: column;
+   background-color: pink;
+   text-align: center;
+  // line-height: 0.2rem;
+   margin: 1rem 1rem 7rem 1rem;
+  // margin: 0.5rem;
+  cursor: pointer;
+  border-radius: 1.5rem;
   width: 20vw;
   height: 20vw;
+  display: flex;
+  flex-direction: column;
 }
-.lipstickImages{
-  width: 90%;
+
+.lipstickImages {
+  width: 100%;
+  margin-bottom: 0.8rem;
 }
-.lipGloss-menu:hover{
-  .lipGloss-menuItem-dropdown{
+
+.lipstickName {
+  font-size: 0.9rem;
+  color: #8F8F8F;
+  margin-bottom: 0.1rem;
+}
+
+.lipstickName:hover {
+  color: blueviolet
+}
+.lipstickPrice{
+  
+}
+
+.lipGloss-menu:hover {
+  .lipGloss-menuItem-dropdown {
     opacity: 1;
   }
 }
+
 .nav-dropdown {
   list-style-type: none;
-   padding-left: 0rem;
-   margin-top: 0;
-   margin-bottom: 0;
+  padding-left: 0rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .nav-icon {
@@ -172,10 +218,12 @@ li:hover{
   margin-right: 1rem;
   cursor: pointer;
 }
-.nav-icon:hover{
-  color:red;
+
+.nav-icon:hover {
+  color: red;
   background-color: red;
 }
+
 img {
   width: 8rem;
   /* margin-left: 0.9rem; */
@@ -207,13 +255,16 @@ img {
   font-size: 0.89rem;
   font-weight: 700;
 }
-.wishListLink:active{
-background-color: green;
+
+.wishListLink:active {
+  background-color: green;
 }
-.wishlist-title{
+
+.wishlist-title {
   font-size: 1.5rem;
   font-weight: 700;
 }
+
 hr {
   margin: 0;
 }

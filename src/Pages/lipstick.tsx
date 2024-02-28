@@ -4,7 +4,7 @@ import lipstickData from "./lipstickData"
 const { Option } = Select;
 const Lipstick = () => {
     return (
-        <div>
+        <div style={{width:"100%"}}>
             <div className="lipstick-div">
                 <p>Showing all 7 results</p>
                 <Select className="lipstick-select">
@@ -21,8 +21,9 @@ const Lipstick = () => {
                   
                         <div className="lipstickCard">
                             <img className="lipstickImages" src={lipStick.image} alt="lipstick-images" />
-                            <p>{lipStick.name}</p>
-                            <p>{lipStick.price}</p>
+                            <a href="https://zaroncosmetics.com/product/zaron-boss-lady-matte-lipstick/" className="lipstickName" >{lipStick.name}</a>
+                            <p className="lipstickPrice">  &#8358;
+{lipStick.price}</p>
                         </div>
                    
 
